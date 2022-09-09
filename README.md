@@ -12,4 +12,29 @@
    - Gradle
    - JUnit
    - Select 'Web Application'
-   -  use defualt library Servlet 4.0.1
+   - use defualt library Servlet 4.0.1
+
+### Working with Tomcat server
+- read https://octopus.com/blog/defining-tomcat-context-paths 
+
+#### Tomcat Context Paths
+This table summaries the various context paths that will be assigned to web applications deployed from webapps, referenced in the server.xml file, or referenced from a file under conf/Catalina/localhost/.
+
+| Configuration  |	Context |
+|---------------|-----------|
+| WAR file deployed under `webapps/app.war`	|   app
+| Exploded deployment under `webapps/app` 	|   app
+| WAR file deployed under `webapps/app#v1.war` |	app/v1
+| Exploded deployment under `webapps/app#v1` 	 | app/v1
+| WAR file deployed under `webapps/app#v1#feature.war` |	app/v1/feature
+| Exploded deployment under `webapps/app#v1#feature` 	|  app/v1/feature
+| `<Context path="/mydemo/version1" docBase="/apps/demo#v1.war"/>` in conf/server.xml |	/mydemo/version1
+| `<Context path="path/is/ignored" docBase="/apps/myapp#v1.war"/>` in conf/Catalina/localhost/mydemo#version1.xml (i.e. config for /apps/myapp#v1.war) |	/mydemo/version1
+| `<Context path="/path/is/ignored"/>` in conf/Catalina/localhost/mydemo#version1.xml (i.e. config for webapps/mydemo#version1.war) | 	/mydemo/version1
+
+
+
+
+
+
+
