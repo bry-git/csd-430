@@ -5,48 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1025e2b0-ab66-4fad-8c5b-967c7904a9b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ebookshop/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/DataAccessObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/books.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/landing.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/resources/initdb.d/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/Landing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/mod3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/src/main/java/com/csd430/mod3/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/src/main/webapp/crandall-JSP_31.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod3/src/main/webapp/crandall-JSP_32.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/src/main/resources/eshop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod6/src/main/webapp/jdbc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/java/com/csd430/mod8/BaseballTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/java/com/csd430/mod8/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/java/com/csd430/mod8/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/resources/initdb.d/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/webapp/CreateTable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/webapp/InsertTable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/webapp/Landing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/webapp/Teams.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod8/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/7.1.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/src/main/java/com/csd430/mod5/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/src/main/java/com/ebookshop/DataAccessObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/books.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/books.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp/landing.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mod4/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mod4/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mod4/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mod4/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mod4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +81,22 @@
     <projectState path="$PROJECT_DIR$/ebookshop">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/mod11">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mod3">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/mod4">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/mod5">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mod6">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mod8">
       <ProjectState />
     </projectState>
   </component>
@@ -79,14 +115,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="jsf" />
+        <option value="HTML File" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2EQnGeoZkuoal0LhVk1XfDpQL26" />
   <component name="ProjectLevelVcsManager">
@@ -97,10 +142,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -109,7 +157,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod6/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mod6/src/main/webapp/WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod3/src/main/webapp" />
       <recent name="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF/jsp" />
       <recent name="$PROJECT_DIR$/ebookshop/src/main/webapp/WEB-INF" />
     </key>
@@ -125,7 +178,14 @@
       <workItem from="1662536584312" duration="232000" />
       <workItem from="1662536829286" duration="258000" />
       <workItem from="1662537102390" duration="258000" />
-      <workItem from="1662537387158" duration="26834000" />
+      <workItem from="1662537387158" duration="44685000" />
+      <workItem from="1663697469749" duration="14197000" />
+      <workItem from="1663734226471" duration="2035000" />
+      <workItem from="1663907357348" duration="4866000" />
+      <workItem from="1663912407834" duration="15000" />
+      <workItem from="1663912444146" duration="16214000" />
+      <workItem from="1664418894443" duration="11163000" />
+      <workItem from="1665541156780" duration="4899000" />
     </task>
     <servers />
   </component>

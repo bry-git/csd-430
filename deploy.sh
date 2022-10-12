@@ -40,6 +40,20 @@ function checkJavaVersion() {
   fi
 }
 
+function checkIfDbNeeded() {
+  tree | grep ".sql" > /dev/null
+  if [ $? -eq 0 ] ; then
+    echo "true"
+  else
+    cat build.gradle | grep "mysql" > /dev/null
+    if [ $? -eq 0 ] ; then
+      echo "true"
+    else
+      echo "false"
+    fi
+  fi
+}
+
 function build() {
   clear
   local jdk=$1
@@ -52,6 +66,7 @@ function build() {
   if [ $? -ne 0 ] ; then
     echo "build failed"
     sleep 2
+    cleanUp
     exit 1
   fi
 
@@ -62,6 +77,7 @@ function build() {
 
 function buildComposeFile() {
   clear
+  local sql=$1
 
   echo "
   version: '3'
@@ -74,6 +90,24 @@ function buildComposeFile() {
       volumes:
         - ./build/libs/$artifact:/usr/local/tomcat/webapps/$artifact
   " > docker-compose.yml
+
+    if [[ $sql == "true" ]] ; then
+      echo "
+    db:
+      container_name: db
+      image: mysql:8
+      ports:
+        - \"3306:3306\"
+      restart: unless-stopped
+      command: --default-authentication-plugin=mysql_native_password
+      environment:
+        - MYSQL_ROOT_PASSWORD=password
+        - MYSQL_PASSWORD=password
+      volumes:
+        - ./src/main/resources/initdb.d/:/docker-entrypoint-initdb.d/
+      " >> docker-compose.yml
+    fi
+
 
   if [ $? -ne 0 ] ; then
     echo "error creating docker-compose file"
@@ -91,7 +125,11 @@ function containerStart() {
 function cleanUp() {
   rm docker-compose.yml
   rm -rf build/libs/*
+  rm -rf build/resources/*
   mv build.gradle.bu build.gradle
+  docker rm $(docker ps -a | grep "tomcat" | awk '{print $1}')
+  docker rm $(docker ps -a | grep "mysql" | awk '{print $1}')
+  docker volume prune -f
 }
 
 ####DRIVER#####
@@ -105,9 +143,11 @@ cd $modChoice
 
 jdk=$(checkJavaVersion)
 
+sql=$(checkIfDbNeeded)
+
 build $jdk
 
-buildComposeFile
+buildComposeFile $sql
 
 containerStart
 

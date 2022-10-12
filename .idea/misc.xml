@@ -3,8 +3,12 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ebookshop" />
+    <file type="web" url="file://$PROJECT_DIR$/mod11" />
+    <file type="web" url="file://$PROJECT_DIR$/mod3" />
     <file type="web" url="file://$PROJECT_DIR$/mod4" />
     <file type="web" url="file://$PROJECT_DIR$/mod5" />
+    <file type="web" url="file://$PROJECT_DIR$/mod6" />
+    <file type="web" url="file://$PROJECT_DIR$/mod8" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-11" project-jdk-type="JavaSDK" />
   <component name="ProjectType">

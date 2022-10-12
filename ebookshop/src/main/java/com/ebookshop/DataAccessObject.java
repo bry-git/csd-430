@@ -1,17 +1,38 @@
 package com.ebookshop;
 
+import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class DataAccessObject {
+    String dbUrl;
 
-    public DataAccessObject() {}
+    public DataAccessObject() {
+        this.dbUrl = "jdbc:mysql://localhost:3306/shop?user=root&password=password";
+    }
 
-    public List<Book> mockGetBooks() {
+    public List<Book> getBooks() {
         List<Book> books = new ArrayList<>();
-        books.add(new Book("harry potter and the sorcerors stone", 12.99F, 2));
-        books.add(new Book("harry potter and the chamber of secrets", 13.99F, 3));
-        books.add(new Book("harry potter and the prizoner of azkaban", 14.50F, 1));
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection con = DriverManager.getConnection(this.dbUrl);
+            PreparedStatement ps = con.prepareStatement("SELECT * FROM books");
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()) {
+                books.add(
+                    new Book(
+                           rs.getString("title"),
+                           rs.getString("author"),
+                           rs.getFloat("price"),
+                           rs.getInt("quantity")
+                    )
+                );
+            };
+        } catch (Exception e) {
+            System.out.println(e);
+        }
         return books;
     }
+
 }

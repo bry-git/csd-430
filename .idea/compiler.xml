@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
       <module name="mod5" target="11" />
+      <module name="mod5.main" target="11" />
+      <module name="mod5.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
